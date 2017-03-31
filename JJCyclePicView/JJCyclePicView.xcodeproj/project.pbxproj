@@ -31,6 +31,7 @@
 		A4FE84DC1E8E2D1E008B1B3E /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FE84CC1E8E2D1E008B1B3E /* UIView+WebCacheOperation.m */; };
 		A4FE84DF1E8E2D99008B1B3E /* NSTimer+JJTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FE84DE1E8E2D99008B1B3E /* NSTimer+JJTimer.m */; };
 		A4FE84E21E8E2E26008B1B3E /* JJCyclePicView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FE84E11E8E2E26008B1B3E /* JJCyclePicView.m */; };
+		A4FE84E51E8E4D76008B1B3E /* Untitled2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4FE84E41E8E4D76008B1B3E /* Untitled2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		A4FE84DE1E8E2D99008B1B3E /* NSTimer+JJTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+JJTimer.m"; sourceTree = "<group>"; };
 		A4FE84E01E8E2E26008B1B3E /* JJCyclePicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCyclePicView.h; sourceTree = "<group>"; };
 		A4FE84E11E8E2E26008B1B3E /* JJCyclePicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCyclePicView.m; sourceTree = "<group>"; };
+		A4FE84E41E8E4D76008B1B3E /* Untitled2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled2.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		A4FE84871E8E2CD6008B1B3E = {
 			isa = PBXGroup;
 			children = (
+				A4FE84E31E8E4D76008B1B3E /* Screenshot */,
 				A4FE84AB1E8E2D1E008B1B3E /* SDWebImage */,
 				A4FE84AA1E8E2D1E008B1B3E /* CyclePicView */,
 				A4FE84921E8E2CD6008B1B3E /* JJCyclePicView */,
@@ -187,6 +190,14 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		A4FE84E31E8E4D76008B1B3E /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE84E41E8E4D76008B1B3E /* Untitled2.gif */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -246,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FE84E51E8E4D76008B1B3E /* Untitled2.gif in Resources */,
 				A4FE84A31E8E2CD6008B1B3E /* LaunchScreen.storyboard in Resources */,
 				A4FE84A01E8E2CD6008B1B3E /* Assets.xcassets in Resources */,
 				A4FE849E1E8E2CD6008B1B3E /* Main.storyboard in Resources */,
@@ -438,6 +450,7 @@
 				A4FE84A91E8E2CD6008B1B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

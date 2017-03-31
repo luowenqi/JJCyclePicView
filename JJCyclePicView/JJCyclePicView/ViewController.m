@@ -25,7 +25,7 @@
 {
     self.view.backgroundColor = [UIColor whiteColor];
     
-    //加载网络上的图片,传入URL
+    //加载网络上的图片,传入URL对应的字符串
 //    NSArray *imagsArray = @[
 //                            @"http://f.hiphotos.baidu.com/news/w%3D638/sign=6cd13c3dbffd5266a72b3f1793199799/aec379310a55b31906deb2a34aa98226cefc17c4.jpg",
 //                            @"http://a.hiphotos.baidu.com/news/w%3D638/sign=0863bd2a38adcbef01347d0594ad2e0e/fcfaaf51f3deb48f54952530f91f3a292cf57864.jpg",

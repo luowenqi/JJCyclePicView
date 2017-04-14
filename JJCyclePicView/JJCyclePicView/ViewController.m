@@ -38,10 +38,28 @@
     
     
     //后面的直接复制
+    //创建一个scrollView
     JJCyclePicView *scrollView = [[JJCyclePicView alloc]initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width ,300)];
-    [scrollView initializationUIWithDataArray:imagsArray];
-    [scrollView setAnimationDuration:1.5];
+    [scrollView initializationUIWithDataArray:imagsArray];  //往scrollView里面添加图片数组
+    [scrollView setAnimationDuration:1.8];   //设置图片每一张图片的展示时间
     [self.view addSubview:scrollView];
+    
+    //还有文字轮播 https://github.com/luowenqi/JJScrollText
 }
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
